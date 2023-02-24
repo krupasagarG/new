@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.card1{
+    box-shadow: 5px 10px 8px #888888;
+    border-radius: 2px;
+    border: 1px solid;
+    box-sizing: border-box;
+    
+        margin-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+.card2{
+    box-shadow: 10px;
+    border-radius: 2px;
+    border: seagreen;
+    box-sizing: border-box;
+    border: 2px solid red;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    text-align: center;
+    padding: 5px 0px;
+    
+}
+.card3{
+    box-shadow: 10px;
+    border-radius: 2px;
+    border: seagreen;
+    box-sizing: border-box;
+    border: 2px solid red;
+    margin-left: 15px;
+    text-align: center;
+    padding: 5px 0px;
+    
+}
+
+.card3:hover{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.st{
+    width: 50px;
+    height: 50px;
+}
